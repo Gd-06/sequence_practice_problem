@@ -1,0 +1,5 @@
+ echo 1ft="0.30 "
+conversion=$((60*40))
+rect=echo $conversion awk '{print $1*0.30}'
+echo "60 ft * 40 ft rect" = $rect meters*meter
+
