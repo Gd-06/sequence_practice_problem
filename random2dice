@@ -1,0 +1,9 @@
+min=1
+max=6
+
+num1=$( expr $min + $RANDOM % $max)
+echo "first dice number is :" $num1
+num2=$( expr $min + $RANDOM % $max)
+echo "second dice number is :" $num2
+sum=$(($num1+$num2))
+echo "sum is:" $sum
