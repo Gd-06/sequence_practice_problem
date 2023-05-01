@@ -1,0 +1,18 @@
+random1=$((RANDOM % 10 +10))
+echo "Random number : $random1"
+
+random2=$((RANDOM % 10 +10))
+echo "Random number : $random2"
+
+random3=$((RANDOM % 10 +10))
+echo "Random number : $random3"
+
+random4=$((RANDOM % 10 +10))
+echo "Random number : $random4"
+
+sum=$(($random1 + $random2 + $random3 + $random4))
+echo $sum
+
+avg=`echo $sum | awk '{print $1/4}'`
+echo $avg
+
